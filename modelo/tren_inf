@@ -1,0 +1,134 @@
+'use strict'
+
+var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
+
+
+
+var Tren_inf = Schema({
+
+    Principiante: {
+        Pecho: {
+          Foto: String,
+          Nombre: String,
+          Descrpcion: String,
+          Beneficios: String,
+          Repeticiones: String,
+        },
+        Brazo: {
+         
+            Foto: String,
+            Nombre: String,
+            Descrpcion: String,
+            Beneficios: String,
+            Repeticiones: String,
+          },
+        },
+        Bisep: {
+          Foto: String,
+          Nombre: String,
+          Descrpcion: String,
+          Beneficios: String,
+          Repeticiones: String,
+        },
+        Abdomen: {
+          Foto: String,
+          Nombre: String,
+          Descrpcion: String,
+          Beneficios: String,
+          Repeticiones: String,
+        },
+        Espalda: {
+          Foto: String,
+          Nombre: String,
+          Descrpcion: String,
+          Beneficios: String,
+          Repeticiones: String,
+        },
+  
+  
+      Intermedio: {
+        Pecho: {
+          Foto: String,
+          Nombre: String,
+          Descrpcion: String,
+          Beneficios: String,
+          Repeticiones: String,
+        },
+        Brazo: {
+          Levant_MancuernasP1: {
+            Foto: String,
+            Nombre: String,
+            Descrpcion: String,
+            Beneficios: String,
+            Repeticiones: String,
+          },
+        },
+        Bisep: {
+          Foto: String,
+          Nombre: String,
+          Descrpcion: String,
+          Beneficios: String,
+          Repeticiones: String,
+        },
+        Abdomen: {
+          Foto: String,
+          Nombre: String,
+          Descrpcion: String,
+          Beneficios: String,
+          Repeticiones: String,
+        },
+        Espalda: {
+          Foto: String,
+          Nombre: String,
+          Descrpcion: String,
+          Beneficios: String,
+          Repeticiones: String,
+        },
+      },
+  
+      Avanzado: {
+        Pecho: {
+          Foto: String,
+          Nombre: String,
+          Descrpcion: String,
+          Beneficios: String,
+          Repeticiones: String,
+        },
+        Brazo: {
+          
+          Levant_MancuernasP1: {
+            Foto: String,
+            Nombre: String,
+            Descrpcion: String,
+            Beneficios: String,
+            Repeticiones: String,
+          },
+        },
+        Bisep: {
+          Foto: String,
+          Nombre: String,
+          Descrpcion: String,
+          Beneficios: String,
+          Repeticiones: String,
+        },
+        Abdomen: {
+          Foto: String,
+          Nombre: String,
+          Descrpcion: String,
+          Beneficios: String,
+          Repeticiones: String,
+        },
+        Espalda: {
+          Foto: String,
+          Nombre: String,
+          Descrpcion: String,
+          Beneficios: String,
+          Repeticiones: String,
+        },
+      }
+
+})
+
+
+module.exports = mongoose.model('Tren Inferior', Tren_inf);
